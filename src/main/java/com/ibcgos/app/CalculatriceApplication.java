@@ -8,10 +8,16 @@ public class CalculatriceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CalculatriceApplication.class, args);
+
+		System.out.println("Début du programme");
+
+
 		Calculatrice calculatrice = new Calculatrice();
 		System.out.println(calculatrice.somme(10, 20));
 		System.out.println(calculatrice.multiplication(10, 20));
 		System.out.println(calculatrice.division(10, 20));
+
+		System.out.println("Fin du programme");
 	}
 
 }
