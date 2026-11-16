@@ -11,6 +11,7 @@ public class CalculatriceApplication {
 		Calculatrice calculatrice = new Calculatrice();
 		System.out.println(calculatrice.somme(10, 20));
 		System.out.println(calculatrice.multiplication(10, 20));
+		System.out.println(calculatrice.division(10, 20));
 	}
 
 }
